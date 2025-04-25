@@ -10,9 +10,6 @@ This Verilog module implements a simple 1-bit Arithmetic Logic Unit (ALU) capabl
 - **B**: 1-bit Input Operand B  
 - **S0, S1**: Control Signals to select the operation
 
-## Output
-
-- **F**: Result of the selected operation
 
 ## Operation Table
 
@@ -25,3 +22,12 @@ The ALU performs one of the following operations based on the control inputs `{S
 | 1  | 0  | A & B     | Bitwise AND     |
 | 1  | 1  | A \| B    | Bitwise OR      |
 
+
+### Output
+
+- **F**: Result of the selected operation
+
+## Author
+
+Anikait Sarkar  
+RSA SEIP VLSI Trainee
